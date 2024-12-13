@@ -1,0 +1,2 @@
+# Java Loop Bug: Unexpected 'continue' behavior
+This repository demonstrates a subtle bug in Java code involving the use of the `continue` statement within a `while` loop. The loop variable is incremented both before and after the `continue` statement which is not the intended behavior and is usually unexpected by programmers. The `bug.java` file contains the buggy code, and `bugSolution.java` provides the corrected version.
